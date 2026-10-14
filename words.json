@@ -1,0 +1,57 @@
+{
+  "categories": [
+    { "id": "tools",     "he": "כלים",            "si": "මෙවලම්",           "icon": "🔨" },
+    { "id": "materials", "he": "חומרים",          "si": "ද්‍රව්‍ය",           "icon": "🧱" },
+    { "id": "actions",   "he": "פעולות והוראות",  "si": "වැඩ සහ උපදෙස්",     "icon": "👉" },
+    { "id": "safety",    "he": "בטיחות",          "si": "ආරක්ෂාව",          "icon": "⚠️" }
+  ],
+
+  "words": [
+    { "id": "peles",    "category": "tools", "he": "פלס",        "say": "פֶּלֶס",      "sound": "පෙලෙස්",     "si": "ලෙවල් එක (මට්ටම)",       "en": "spirit level",  "image": "img/peles.svg",    "checked": false },
+    { "id": "et",       "category": "tools", "he": "את",         "say": "אֵת",        "sound": "එට්",        "si": "සවල",                    "en": "shovel",        "image": "img/et.svg",       "checked": false },
+    { "id": "meritsa",  "category": "tools", "he": "מריצה",      "say": "מְרִיצָה",    "sound": "මෙරිට්සා",   "si": "වීල් බැරෝ එක (තල්ලු කරත්තය)", "en": "wheelbarrow",   "image": "img/meritsa.svg",  "checked": false },
+    { "id": "patish",   "category": "tools", "he": "פטיש",       "say": "פַּטִּישׁ",     "sound": "පටිෂ්",      "si": "මිටිය",                  "en": "hammer",        "image": "img/patish.svg",   "checked": false },
+    { "id": "makdecha", "category": "tools", "he": "מקדחה",      "say": "מַקְדֵּחָה",   "sound": "මක්දෙහා",    "si": "ඩ්‍රිල් මැෂිම (විදුම් යන්ත්‍රය)", "en": "drill", "image": "img/makdecha.svg", "checked": false },
+    { "id": "masor",    "category": "tools", "he": "מסור",       "say": "מַסּוֹר",     "sound": "මසෝර්",      "si": "කියත",                   "en": "saw",           "image": "img/masor.svg",    "checked": false },
+    { "id": "mavreg",   "category": "tools", "he": "מברג",       "say": "מַבְרֵג",     "sound": "මව්රෙග්",    "si": "ඉස්කුරුප්පු නියන",       "en": "screwdriver",   "image": "img/mavreg.svg",   "checked": false },
+    { "id": "meter",    "category": "tools", "he": "מטר",        "say": "מֶטֶר",       "sound": "මෙටෙර්",     "si": "ටේප් එක (මිනුම් පටිය)",   "en": "measuring tape","image": "img/meter.svg",    "checked": false },
+    { "id": "kaf",      "category": "tools", "he": "כף טייחים",  "say": "כַּף טַיָּחִים", "sound": "කෆ් ටයියාහිම්", "si": "මේසන් හැන්ද",       "en": "trowel",        "image": "img/kaf.svg",      "checked": false },
+    { "id": "dli",      "category": "tools", "he": "דלי",        "say": "דְּלִי",      "sound": "ද්ලී",       "si": "බාල්දිය",                "en": "bucket",        "image": "img/dli.svg",      "checked": false },
+    { "id": "sulam",    "category": "tools", "he": "סולם",       "say": "סֻלָּם",      "sound": "සුලාම්",     "si": "ඉණිමඟ",                  "en": "ladder",        "image": "img/sulam.svg",    "checked": false },
+    { "id": "mader",    "category": "tools", "he": "מעדר",       "say": "מַעְדֵּר",    "sound": "මඅදෙර්",     "si": "උදැල්ල",                 "en": "hoe",           "image": "img/mader.svg",    "checked": false },
+
+    { "id": "melet",    "category": "materials", "he": "מלט",    "say": "מֶלֶט",       "sound": "මෙලෙට්",     "si": "සිමෙන්ති",               "en": "cement",        "image": "img/melet.svg",    "checked": false },
+    { "id": "chol",     "category": "materials", "he": "חול",    "say": "חוֹל",        "sound": "හෝල්",       "si": "වැලි",                   "en": "sand",          "image": "img/chol.svg",     "checked": false },
+    { "id": "chatsats", "category": "materials", "he": "חצץ",    "say": "חָצָץ",       "sound": "හට්සාට්ස්",  "si": "ගල් කැට (මෙටල්)",        "en": "gravel",        "image": "img/chatsats.svg", "checked": false },
+    { "id": "beton",    "category": "materials", "he": "בטון",   "say": "בֶּטוֹן",     "sound": "බෙටෝන්",     "si": "කොන්ක්‍රීට්",       "en": "concrete",      "image": "img/beton.svg",    "checked": false },
+    { "id": "barzel",   "category": "materials", "he": "ברזל",   "say": "בַּרְזֶל",    "sound": "බර්සෙල්",    "si": "යකඩ කම්බි",              "en": "iron / rebar",  "image": "img/barzel.svg",   "checked": false },
+    { "id": "blok",     "category": "materials", "he": "בלוק",   "say": "בְּלוֹק",     "sound": "බ්ලොක්",     "si": "බ්ලොක් ගල",              "en": "block",         "image": "img/blok.svg",     "checked": false },
+    { "id": "mayim",    "category": "materials", "he": "מים",    "say": "מַיִם",       "sound": "මයිම්",      "si": "වතුර",                   "en": "water",         "image": "img/mayim.svg",    "checked": false },
+    { "id": "ets",      "category": "materials", "he": "עץ",     "say": "עֵץ",         "sound": "එට්ස්",      "si": "ලී",                     "en": "wood",          "image": "img/ets.svg",      "checked": false },
+    { "id": "tsinor",   "category": "materials", "he": "צינור",  "say": "צִינּוֹר",    "sound": "ට්සිනෝර්",   "si": "බටය (නළය)",              "en": "pipe",          "image": "img/tsinor.svg",   "checked": false },
+    { "id": "avanim",   "category": "materials", "he": "אבנים",  "say": "אֲבָנִים",    "sound": "අවානිම්",    "si": "ගල්",                    "en": "stones",        "image": "img/avanim.svg",   "checked": false },
+
+    { "id": "lachpor",  "category": "actions", "he": "לחפור",    "say": "לַחְפֹּר",    "sound": "ලහ්පෝර්",    "si": "හාරන්න",                 "en": "dig",           "image": "img/lachpor.svg",  "checked": false },
+    { "id": "leharim",  "category": "actions", "he": "להרים",    "say": "לְהָרִים",    "sound": "ලෙහාරිම්",   "si": "ඔසවන්න",                 "en": "lift",          "image": "img/leharim.svg",  "checked": false },
+    { "id": "lehavi",   "category": "actions", "he": "להביא",    "say": "לְהָבִיא",    "sound": "ලෙහාවී",     "si": "ගෙනෙන්න",                "en": "bring",         "image": "img/lehavi.svg",   "checked": false },
+    { "id": "lishpoch", "category": "actions", "he": "לשפוך",    "say": "לִשְׁפֹּךְ",   "sound": "ලිෂ්පෝහ්",   "si": "වත් කරන්න",              "en": "pour",          "image": "img/lishpoch.svg", "checked": false },
+    { "id": "learbev",  "category": "actions", "he": "לערבב",    "say": "לְעַרְבֵּב",   "sound": "ලෙඅර්බෙව්",  "si": "කලවම් කරන්න",            "en": "mix",           "image": "img/learbev.svg",  "checked": false },
+    { "id": "lenakot",  "category": "actions", "he": "לנקות",    "say": "לְנַקּוֹת",   "sound": "ලෙනකෝට්",    "si": "පිරිසිදු කරන්න",          "en": "clean",         "image": "img/lenakot.svg",  "checked": false },
+    { "id": "lachtoch", "category": "actions", "he": "לחתוך",    "say": "לַחְתֹּךְ",   "sound": "ලහ්ටෝහ්",    "si": "කපන්න",                  "en": "cut",           "image": "img/lachtoch.svg", "checked": false },
+    { "id": "bo",       "category": "actions", "he": "בוא",      "say": "בּוֹא",       "sound": "බෝ",         "si": "එන්න",                   "en": "come",          "image": "img/bo.svg",       "checked": false },
+    { "id": "kan",      "category": "actions", "he": "כאן",      "say": "כָּאן",       "sound": "කාන්",       "si": "මෙතන",                   "en": "here",          "image": "img/kan.svg",      "checked": false },
+    { "id": "sham",     "category": "actions", "he": "שם",       "say": "שָׁם",        "sound": "ෂාම්",       "si": "එතන",                    "en": "there",         "image": "img/sham.svg",     "checked": false },
+    { "id": "leat",     "category": "actions", "he": "לאט",      "say": "לְאַט",       "sound": "ලෙඅට්",      "si": "හෙමින්",                 "en": "slowly",        "image": "img/leat.svg",     "checked": false },
+    { "id": "maher",    "category": "actions", "he": "מהר",      "say": "מַהֵר",       "sound": "මහෙර්",      "si": "ඉක්මනට",                 "en": "quickly",       "image": "img/maher.svg",    "checked": false },
+    { "id": "hafsaka",  "category": "actions", "he": "הפסקה",    "say": "הַפְסָקָה",   "sound": "හෆ්සකා",     "si": "විවේකය (ටී බ්‍රේක් එක)", "en": "break",         "image": "img/hafsaka.svg",  "checked": false },
+    { "id": "ezra",     "category": "actions", "he": "עזרה",     "say": "עֶזְרָה",     "sound": "එස්රා",      "si": "උදව්",                   "en": "help",          "image": "img/ezra.svg",     "checked": false },
+
+    { "id": "atsor",    "category": "safety", "he": "עצור",      "say": "עֲצֹר",       "sound": "අට්සෝර්",    "si": "නවතින්න",                "en": "stop",          "image": "img/atsor.svg",    "checked": false },
+    { "id": "zehirut",  "category": "safety", "he": "זהירות",    "say": "זְהִירוּת",   "sound": "සෙහිරූට්",   "si": "පරිස්සමින්",             "en": "careful",       "image": "img/zehirut.svg",  "checked": false },
+    { "id": "sakana",   "category": "safety", "he": "סכנה",      "say": "סַכָּנָה",    "sound": "සකානා",      "si": "අනතුරුයි",               "en": "danger",        "image": "img/sakana.svg",   "checked": false },
+    { "id": "kasda",    "category": "safety", "he": "קסדה",      "say": "קַסְדָּה",    "sound": "කස්දා",      "si": "හෙල්මට් එක (ආරක්ෂිත තොප්පිය)", "en": "helmet", "image": "img/kasda.svg",    "checked": false },
+    { "id": "kfafot",   "category": "safety", "he": "כפפות",     "say": "כְּפָפוֹת",   "sound": "ක්ෆාෆෝට්",   "si": "අත්වැසුම්",              "en": "gloves",        "image": "img/kfafot.svg",   "checked": false },
+    { "id": "naalayim", "category": "safety", "he": "נעלי עבודה", "say": "נַעֲלֵי עֲבוֹדָה", "sound": "නඅලේ අවෝදා", "si": "වැඩ සපත්තු",       "en": "work boots",    "image": "img/naalayim.svg", "checked": false },
+    { "id": "afod",     "category": "safety", "he": "אפוד זוהר", "say": "אֵפוֹד זוֹהֵר", "sound": "එෆෝද් සෝහෙර්", "si": "දිලිසෙන ආරක්ෂිත ජැකට්", "en": "safety vest", "image": "img/afod.svg",  "checked": false }
+  ]
+}

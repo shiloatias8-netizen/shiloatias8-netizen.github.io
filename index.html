@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>מילון לשטח</title>
+  <meta name="description" content="מילון תמונות עברית–סינהלית לאתר בנייה">
+  <meta name="theme-color" content="#111111">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="מילון לשטח">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="title-row">
+      <h1>מילון לשטח <span lang="si">වැඩබිම් ශබ්දකෝෂය</span></h1>
+      <button id="help-btn" class="help-btn" aria-label="עזרה">?</button>
+    </div>
+    <label class="search">
+      <span aria-hidden="true">🔍</span>
+      <input id="search" type="search" placeholder="חיפוש · සොයන්න" autocomplete="off" enterkeyhint="search">
+    </label>
+    <nav id="cats" class="cats" aria-label="קטגוריות"></nav>
+  </header>
+
+  <div id="voice-warning" class="warning" hidden>
+    לא נמצא קול עברי בטלפון, ולכן ההקראה עלולה לא לעבוד.
+    <button id="warning-help" class="link-btn">איך מתקנים?</button>
+  </div>
+
+  <main id="cards" class="cards" aria-live="polite"></main>
+  <p id="empty" class="empty" hidden>לא נמצא · හමු නොවීය</p>
+
+  <section id="help" class="help" hidden>
+    <div class="help-box">
+      <button id="help-close" class="close-btn" aria-label="סגור">✕</button>
+      <h2>איך משתמשים</h2>
+      <p>לוחצים על כרטיס, והטלפון מקריא את המילה בעברית.</p>
+      <p><b class="tag">🗣</b> איך אומרים את המילה בעברית, באותיות סינהליות.<br>
+         <b class="tag">=</b> מה המילה אומרת בסינהלית.</p>
+      <p lang="si" dir="ltr" style="text-align:left">කාඩ්පත ඔබන්න — හීබ්‍රු වචනය ඇසෙයි.<br>🗣 හීබ්‍රු උච්චාරණය<br>= තේරුම</p>
+
+      <h2>הטלפון לא מקריא בעברית?</h2>
+      <h3>אנדרואיד</h3>
+      <ol>
+        <li>פותחים <b>הגדרות</b> ומחפשים <b>"המרת טקסט לדיבור"</b> (באנגלית: Text-to-speech).</li>
+        <li>במנוע המועדף בוחרים <b>"Speech Services by Google"</b> (או "שירותי דיבור של Google"). בסמסונג המנוע של סמסונג נבחר לפעמים כברירת מחדל, ואז צריך להחליף אותו.</li>
+        <li>לוחצים על גלגל השיניים ⚙ ליד המנוע, ואז <b>"התקנת נתוני קול"</b>, ובוחרים <b>עברית</b> ⬇ להורדה. זה חינמי, וההורדה גם מאפשרת הקראה בלי אינטרנט.</li>
+        <li>אם "התקנת נתוני קול" לא מופיע: מעדכנים את האפליקציה "Speech Services by Google" בחנות Google Play (חינם).</li>
+      </ol>
+      <h3>אייפון</h3>
+      <ol>
+        <li><b>הגדרות</b> ← <b>נגישות</b> ← <b>תוכן מוקרא</b> ← <b>קולות</b>.</li>
+        <li>בוחרים <b>עברית</b> ← <b>כרמית</b>, ומורידים אם צריך (חינם).</li>
+        <li>אם עדיין אין קול: לבדוק שמתג ההשתקה בצד הטלפון לא מופעל, ולהגביר את עוצמת הקול.</li>
+      </ol>
+      <p>אחרי ההתקנה סוגרים את האפליקציה ופותחים אותה מחדש.</p>
+      <p id="voice-status" class="small"></p>
+    </div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
