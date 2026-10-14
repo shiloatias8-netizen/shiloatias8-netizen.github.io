@@ -2,7 +2,7 @@
 // Shows the saved copy right away and quietly fetches a fresh copy in the background,
 // so changes you upload reach the phone the next time the app is opened.
 
-const CACHE = 'milon-v1';
+const CACHE = 'milon-v2';
 const CORE = ['./', 'index.html', 'style.css', 'app.js', 'words.json', 'manifest.webmanifest',
   'icons/icon-192.png', 'icons/icon-512.png'];
 
